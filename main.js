@@ -188,4 +188,4 @@ function play(guild, song) {
 client.on('ready', () => console.log(`Connecté en tant que ${client.user.tag}!`));
 client.once('reconnecting', () => {console.log('Reconnecting!');});
 client.once('disconnect', () => {console.log('Disconnect!');});
-client.login(TOKEN);
+client.login(process.env.TOKEN);
