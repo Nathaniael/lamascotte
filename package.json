@@ -1,25 +1,29 @@
 {
-  "name": "mascotte",
-  "version": "0.0.1",
-  "description": "",
+  "name": "lamascotte",
+  "version": "1.0.0",
+  "description": "a simple discord bot",
   "main": "main.js",
-  "engines": {
-    "node": "10.x"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
-  },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
     "discord.js": "^12.4.1",
-    "ffmpeg": "0.0.4",
+    "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.2.7",
     "fluent-ffmpeg": "^2.1.2",
-    "node": "14.15.0",
     "querystring": "^0.2.1",
-    "r2": "^2.0.1"
-  }
+    "r2": "^2.0.1",
+    "ytdl-core": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathaniael/lamascotte.git"
+  },
+  "author": "Nathaniael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nathaniael/lamascotte/issues"
+  },
+  "homepage": "https://github.com/Nathaniael/lamascotte#readme"
 }
