@@ -64,6 +64,4 @@ client.on('message', async message => {
 client.on('ready', () => console.log(`Connecté en tant que ${client.user.tag}!`));
 client.once('reconnecting', () => {console.log('Reconnecting!');});
 client.once('disconnect', () => {console.log('Disconnect!');});
-client.login(TOKEN);
-
-//J'aimerai réaliser un bot discord, avec toutes les fonctionnalités suivantes : commandes de modérations simple, affichage d'un statut personnalisé, message embed avec une image de chat aléatoire, commande de test de ping, commande d'aide, gestion des permissions
+client.login(process.env.TOKEN);
