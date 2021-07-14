@@ -1,10 +1,10 @@
-const { CAT_API_KEY, CAT_API_URL } = require('../../config.js');
+const { CAT_API_URL } = require('../../config.js');
 const querystring = require('querystring');
 const r2          = require('r2');
 
 module.exports.run = async (client,message,args, serverQueue) => {
       var headers = {
-        'X-API-KEY': CAT_API_KEY,
+        'X-API-KEY': process.env.CAT_API_KEY,
     }
     var query_params = {
       'has_breeds':true,
