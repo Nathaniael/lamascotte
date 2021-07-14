@@ -1,5 +1,5 @@
 const { Client, Collection } = require('discord.js');
-const { TOKEN, PREFIX, process.env.CAT_API_KEY, CAT_API_URL } = require('./config.js');
+const { PREFIX, CAT_API_URL } = require('./config.js');
 const { readdirSync } = require("fs");
 
 const client = new Client();
